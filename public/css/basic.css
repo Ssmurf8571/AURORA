@@ -99,13 +99,27 @@ body {
 header ul li {
   position: relative;
 }
-header ul li.active a {
+header ul li.inactive a {
+  color: rgba(0, 0, 0, 0.55);
+}
+header ul li.inactive a::after {
+  width: 0;
+}
+header ul li.active > a {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-orange-rgb), var(--bs-text-opacity)) !important;
 }
-header ul li.active a::after {
+header ul li.active > a::after {
+  content: "";
+  position: absolute;
   left: 0;
+  bottom: 0;
+  height: 4px;
   width: 100%;
+  background-color: orange;
+}
+header ul li a {
+  background-color: #FFFFFF !important;
 }
 header ul li a:hover {
   --bs-text-opacity: 1;
@@ -124,6 +138,9 @@ header ul li a::after {
   width: 0;
   background-color: orange;
   transition: 0.3s ease;
+}
+header ul li:hover .dropdown-menu {
+  display: block !important;
 }
 header .navbar-collapse {
   flex-grow: 0 !important;
@@ -322,4 +339,13 @@ section.my-team h5 {
 
 form.contact-form {
   max-width: 530px;
+}
+
+section.service-info .service-overflow {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.55);
 }

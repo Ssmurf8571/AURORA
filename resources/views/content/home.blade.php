@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
 
-    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="/css/basic.css">
 </head>
 <body class="bg-white ">
     @section('page-content')
@@ -21,7 +21,7 @@
             <button type="button" data-bs-target="#CarouselSlider" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
             </div>
             <div class="carousel-inner">
-            <div class="carousel-item" style="background: center url('images/slider/slider_1.jpg');">
+            <div class="carousel-item" style="background: center url('/images/slider/slider_1.jpg');">
                 <div class="container">
                     <div class="carousel-caption text-start">
                         <h1>What exactly is Transloading?</h1>
@@ -30,7 +30,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item" style="background: center url('images/slider/slider_2.jpg');">
+            <div class="carousel-item" style="background: center url('/images/slider/slider_2.jpg');">
                 <div class="container">
                     <div class="carousel-caption text-start">
                         <h1>What exactly is Transloading?</h1>
@@ -39,7 +39,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item active" style="background: center url('images/slider/slider_3.jpg');">
+            <div class="carousel-item active" style="background: center url('/images/slider/slider_3.jpg');">
                 <div class="container">
                     <div class="carousel-caption text-start">
                         <h1>What exactly is Transloading?</h1>
@@ -60,35 +60,6 @@
                 </button>
             </div>
         </div>
-
-        <section class="service-list">
-            <div class="d-flex flex-wrap">
-                <a href="#" class="position-relative col-lg-4 col-md-6 col-sm-12">
-                    <div class="img-wrap position-absolute"><h2 class="text-white position-absolute">Trucking</h2></div>
-                    <img class="w-100" src="images/services/service-1-685x440.jpg" alt="">
-                </a>
-                <a href="#" class="position-relative col-lg-4 col-md-6 col-sm-12">
-                    <div class="img-wrap position-absolute"><h2 class="text-white position-absolute">Refrigerated Trucks</h2></div>
-                    <img class="w-100" src="images/services/service-2-685x440.jpg" alt="">
-                </a>
-                <a href="#" class="position-relative col-lg-4 col-md-6 col-sm-12">
-                    <div class="img-wrap position-absolute"><h2 class="text-white position-absolute">Warehousing</h2></div>
-                    <img class="w-100" src="images/services/service-3-685x440.jpg" alt="">
-                </a>
-                <a href="#" class="position-relative col-lg-4 col-md-6 col-sm-12">
-                    <div class="img-wrap position-absolute"><h2 class="text-white position-absolute">Specialized Retail Delivery</h2></div>
-                    <img class="w-100" src="images/services/service-4-685x440.jpg" alt="">
-                </a>
-                <a href="#" class="position-relative col-lg-4 col-md-6 col-sm-12">
-                    <div class="img-wrap position-absolute"><h2 class="text-white position-absolute">Heavy Haul</h2></div>
-                    <img class="w-100" src="images/services/service-5-685x440.jpg" alt="">
-                </a>
-                <a href="#" class="position-relative col-lg-4 col-md-6 col-sm-12">
-                    <div class="img-wrap position-absolute"><h2 class="text-white position-absolute">Express Delivery</h2></div>
-                    <img class="w-100" src="images/services/service-6-685x440.jpg" alt="">
-                </a>
-            </div>
-        </section>
 
         <section class="advantage">
             <div class="container">
@@ -129,12 +100,12 @@
             <div class="container">
                 <h1 class="fw-bolder mb-5 text-gray-700">Companies we cooperate with</h1>
                 <div class="d-flex flex-md-wrap justify-content-between align-items-center flex-md-row flex-column">
-                    <img class="" src="images/companies/compania-1.webp" alt="">
-                    <img class="" src="images/companies/compania-2.webp" alt="">
-                    <img class="" src="images/companies/compania-3.webp" alt="">
-                    <img class="" src="images/companies/compania-4.webp" alt="">
-                    <img class="" src="images/companies/compania-5.webp" alt="">
-                    <img class="" src="images/companies/compania-6.webp" alt="">
+                    <img class="" src="/images/companies/compania-1.webp" alt="">
+                    <img class="" src="/images/companies/compania-2.webp" alt="">
+                    <img class="" src="/images/companies/compania-3.webp" alt="">
+                    <img class="" src="/images/companies/compania-4.webp" alt="">
+                    <img class="" src="/images/companies/compania-5.webp" alt="">
+                    <img class="" src="/images/companies/compania-6.webp" alt="">
                 </div>
             </div>
         </section>

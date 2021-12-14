@@ -48,7 +48,7 @@
     </div>
     <div class="container d-sm-grid text-center text-sm-start">
         <a href="/" class="mb-2">
-            <img src="images/logo.png" alt="Aurora">
+            <img src="/images/logo.png" alt="Aurora">
         </a>
         <div class="d-flex justify-content-center justify-content-sm-end align-items-end social">
             <a class="mx-1" href="https://www.facebook.com"><i class="fab fa-facebook-f text-white">facebook</i></a>

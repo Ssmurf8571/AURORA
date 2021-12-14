@@ -195,7 +195,7 @@
 
         <section class="promo">
             <div class="container">
-                <div class="d-flex flex-column bg-promo mx-md-4">
+                <div class="d-flex flex-column bg-promo mx-md-4 px-md-5 px-sm-3 px-2">
                     <div class="col-md-6 col-sm-12">
                         <h1 class="fw-bolder text-gray-700">СКИДКА 10% для клиентов впервые!</h1>
                     <h3 class="mb-4">Предложение действительно только до конца этого месяца!</h3>
@@ -210,7 +210,7 @@
                 <div class="d-flex flex-wrap justify-content-between">
                     <iframe class="col-lg-7 col-md-6 col-sm-12 mx-md-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35476.53201043598!2d42.114853157321285!3d56.238618255197146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414e7f7c4a41dbf5%3A0xf68c57631793d7a1!2z0JLRj9C30L3QuNC60LgsINCS0LvQsNC00LjQvNC40YDRgdC60LDRjyDQvtCx0Lsu!5e0!3m2!1sru!2sru!4v1638188611289!5m2!1sru!2sru" allowfullscreen="" loading="lazy"></iframe>
                     <div class="grey-block d-flex flex-column col-md-4 col-sm-12 mx-md-3 pt-5 px-4 pb-3">
-                        <h1 class="text-gray-700 mb-5 fw-bolder">Contact Us</h1>
+                        <h1 class="text-gray-700 mb-5 fw-bolder">Связаться с нами</h1>
                         <form class="contact-form-home" action="/" method="get" id="">
                             @csrf
                             <input class="w-100 border-0 fs-5 bg-transparent border-bottom py-1 px-2 mb-1" type="text" name="Name" id="contact-name" placeholder="Имя" required>
