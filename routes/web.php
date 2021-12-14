@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('landing');
-// });
+Route::get('/langing', function () {
+    return view('landing');
+});
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

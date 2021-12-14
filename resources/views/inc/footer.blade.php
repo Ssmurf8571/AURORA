@@ -56,6 +56,6 @@
             <a class="mx-1" href="https://www.pinterest.ru"><i class="fab fa-pinterest text-white">pinterest</i></a>
             <a class="mx-1" href="https://www.instagram.com"><i class="fab fa-instagram text-white">instagram</i></a>
         </div>
-        <p class="text-gray-500 m-0">Ssmurf8571 © Alterra Corporation {{ now()->year }}</p>
+        <p class="text-gray-500 m-0">Ssmurf8571 © Alterra Corporation 2021 - {{ now()->year }}</p>
     </div>
 </footer>
