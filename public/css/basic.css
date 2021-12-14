@@ -121,6 +121,9 @@ header ul li.active > a::after {
 header ul li a {
   background-color: #FFFFFF !important;
 }
+header ul li a {
+  background-color: #FFFFFF !important;
+}
 header ul li a:hover {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-orange-rgb), var(--bs-text-opacity)) !important;
