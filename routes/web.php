@@ -30,7 +30,6 @@ Route::get('/', function () {
     return view('content.home', ['page'=>$title]);
 });
 
-<<<<<<< HEAD
 Route::get('services/trucking', function () {
     return view('content.services.trucking', ['page'=>'trucking']);
 });
@@ -40,8 +39,6 @@ Route::get('services/{url}', function ($url) {
     return view('content.service', ['page'=>$title]);
 });
 
-=======
->>>>>>> 99c6bed0c5c0debcf5ef53be02b26f4073ec12b1
 Route::get('/{url}', function ($url) {
     $title = $url;
     return view('content.'.$url, ['page'=>$title]);

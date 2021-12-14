@@ -18,7 +18,6 @@
  
     <div class="collapse navbar-collapse ms-auto align-items-lg-baseline" id="navbarHeader">
       <ul class="navbar-nav me-auto mb-2 mb-md-0">
-<<<<<<< HEAD
           <li class="nav-item inactive @if($page=='home') active  @endif"><a class="nav-link text-center" href="/home">Главная</a></li>
           <li class="nav-item inactive @if($page=='about') active  @endif"><a class="nav-link text-center" href="/about">О нас</a></li>
         <button class="btn btn-toggle align-items-center collapsed d-md-none d-block" data-bs-toggle="collapse" data-bs-target="#servises-collapse" aria-expanded="false">
@@ -32,26 +31,10 @@
               <li class="inactive @if($page=='refrigerated-trucks') active @endif"><a href="/services/refrigerated-trucks" class="dropdown-item text-capitalize nav-link link-dark px-2">Refrigerated Trucks</a></li>
               <li class="inactive @if($page=='cross-border') active @endif"><a href="/services/cross-border" class="dropdown-item text-capitalize nav-link link-dark px-2">Cross-Border</a></li>
               <li class="inactive @if($page=='flatbed') active  @endif"><a href="/services/flatbed" class="dropdown-item text-capitalize nav-link link-dark px-2">Flatbed</a></li>
-=======
-          <li class="nav-item @if($page=='home') active @endif"><a class="nav-link text-center" href="/home">Главная</a></li>
-        <li class="nav-item @if($page=='about') active @endif"><a class="nav-link text-center" href="/about">О нас</a></li>
-        <button class="btn btn-toggle align-items-center collapsed d-md-none d-block" data-bs-toggle="collapse" data-bs-target="#servises-collapse" aria-expanded="false">
-          <li class="nav-item @if($page=='services') active @endif"><a class="nav-link text-center" href="/services">Сервисы</a>
-            <ul class="dropdown-menu" id="services-collapse">
-              <li><a href="#" class="dropdown-item text-capitalize nav-link link-dark px-2">Trucking</a></li>
-              <li><a href="#" class="dropdown-item text-capitalize nav-link link-dark px-2">Express Delivery</a></li>
-              <li><a href="#" class="dropdown-item text-capitalize nav-link link-dark px-2">Heavy Haul</a></li>
-              <li><a href="#" class="dropdown-item text-capitalize nav-link link-dark px-2">Specialized Retail Delivery</a></li>
-              <li><a href="#" class="dropdown-item text-capitalize nav-link link-dark px-2">Warehousing</a></li>
-              <li><a href="#" class="dropdown-item text-capitalize nav-link link-dark px-2">Refrigerated Trucks</a></li>
-              <li><a href="#" class="dropdown-item text-capitalize nav-link link-dark px-2">Cross-Border</a></li>
-              <li><a href="#" class="dropdown-item text-capitalize nav-link link-dark px-2">Flatbed</a></li>
->>>>>>> 99c6bed0c5c0debcf5ef53be02b26f4073ec12b1
             </ul>
           </li>
         </button>
         
-<<<<<<< HEAD
         <li class="nav-item d-md-block d-none inactive @if($page=='services') active @endif"><a class="nav-link text-center" href="/services">Сервисы</a>
           <ul class="dropdown-menu">
           <li class="inactive @if($page=='trucking') active  @endif"><a href="/services/trucking" class="dropdown-item text-capitalize nav-link link-dark px-2">Trucking</a></li>
@@ -66,22 +49,6 @@
         </li>
 
         <li class="nav-item inactive @if($page=='contact') active @endif"><a class="nav-link text-center" href="/contact">Контакты</a></li>
-=======
-        <li class="nav-item d-md-block d-none @if($page=='services') active @endif"><a class="nav-link text-center" href="/services">Сервисы</a>
-          <ul class="dropdown-menu">
-            <li><a href="#" class="dropdown-item text-capitalize nav-link link-dark px-2">Trucking</a></li>
-            <li><a href="#" class="dropdown-item text-capitalize nav-link link-dark px-2">Express Delivery</a></li>
-            <li><a href="#" class="dropdown-item text-capitalize nav-link link-dark px-2">Heavy Haul</a></li>
-            <li><a href="#" class="dropdown-item text-capitalize nav-link link-dark px-2">Specialized Retail Delivery</a></li>
-            <li><a href="#" class="dropdown-item text-capitalize nav-link link-dark px-2">Warehousing</a></li>
-            <li><a href="#" class="dropdown-item text-capitalize nav-link link-dark px-2">Refrigerated Trucks</a></li>
-            <li><a href="#" class="dropdown-item text-capitalize nav-link link-dark px-2">Cross-Border</a></li>
-            <li><a href="#" class="dropdown-item text-capitalize nav-link link-dark px-2">Flatbed</a></li>
-          </ul>  
-        </li>
-
-        <li class="nav-item @if($page=='contact') active @endif"><a class="nav-link text-center" href="/contact">Контакты</a></li>
->>>>>>> 99c6bed0c5c0debcf5ef53be02b26f4073ec12b1
       </ul>
 
       
