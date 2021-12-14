@@ -107,6 +107,9 @@ header ul li.active a::after {
   left: 0;
   width: 100%;
 }
+header ul li a {
+  background-color: #FFFFFF !important;
+}
 header ul li a:hover {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-orange-rgb), var(--bs-text-opacity)) !important;
@@ -124,6 +127,9 @@ header ul li a::after {
   width: 0;
   background-color: orange;
   transition: 0.3s ease;
+}
+header ul li:hover .dropdown-menu {
+  display: block !important;
 }
 header .navbar-collapse {
   flex-grow: 0 !important;

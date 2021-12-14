@@ -148,6 +148,12 @@ header {
           background-color: orange;
           transition: .3s ease;
         }
+        background-color: #FFFFFF!important;
+      }
+      &:hover {
+        .dropdown-menu {
+          display: block!important;
+        }
       }
       position: relative;
     }
