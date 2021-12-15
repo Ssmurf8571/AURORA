@@ -1,0 +1,6 @@
+<script>
+    $("#root").each(function () {
+      let text = document.getElementById("root").innerHTML; 
+document.getElementById("root").innerHTML = text.replace(/-/g, " ");
+});
+    </script>
