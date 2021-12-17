@@ -4,3 +4,11 @@
 document.getElementById("root").innerHTML = text.replace(/-/g, " ");
 });
     </script>
+
+
+OR
+
+
+    <script>
+        $("#root").text($('#root').text().replace(/-/g," "));
+    </script>
