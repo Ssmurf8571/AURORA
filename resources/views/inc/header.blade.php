@@ -29,7 +29,7 @@
               <li class="inactive @if($page=='specialized-retail-delivery') active @endif"><a href="/services/specialized-retail-delivery" class="dropdown-item text-capitalize nav-link link-dark px-2">Specialized Retail Delivery</a></li>
               <li class="inactive @if($page=='warehousing') active  @endif"><a href="/services/warehousing" class="dropdown-item text-capitalize nav-link link-dark px-2">Warehousing</a></li>
               <li class="inactive @if($page=='refrigerated-trucks') active @endif"><a href="/services/refrigerated-trucks" class="dropdown-item text-capitalize nav-link link-dark px-2">Refrigerated Trucks</a></li>
-              <li class="inactive @if($page=='cross-border') active @endif"><a href="/services/cross-border" class="dropdown-item text-capitalize nav-link link-dark px-2">Cross-Border</a></li>
+              <li class="inactive @if($page=='cross-boarder') active @endif"><a href="/services/cross-boarder" class="dropdown-item text-capitalize nav-link link-dark px-2">cross-boarder</a></li>
               <li class="inactive @if($page=='flatbed') active  @endif"><a href="/services/flatbed" class="dropdown-item text-capitalize nav-link link-dark px-2">Flatbed</a></li>
             </ul>
           </li>
@@ -43,7 +43,7 @@
               <li class="inactive @if($page=='specialized-retail-delivery') active @endif"><a href="/services/specialized-retail-delivery" class="dropdown-item text-capitalize nav-link link-dark px-2">Specialized Retail Delivery</a></li>
               <li class="inactive @if($page=='warehousing') active  @endif"><a href="/services/warehousing" class="dropdown-item text-capitalize nav-link link-dark px-2">Warehousing</a></li>
               <li class="inactive @if($page=='refrigerated-trucks') active @endif"><a href="/services/refrigerated-trucks" class="dropdown-item text-capitalize nav-link link-dark px-2">Refrigerated Trucks</a></li>
-              <li class="inactive @if($page=='cross-border') active @endif"><a href="/services/cross-border" class="dropdown-item text-capitalize nav-link link-dark px-2">Cross-Border</a></li>
+              <li class="inactive @if($page=='cross-boarder') active @endif"><a href="/services/cross-boarder" class="dropdown-item text-capitalize nav-link link-dark px-2">cross-boarder</a></li>
               <li class="inactive @if($page=='flatbed') active  @endif"><a href="/services/flatbed" class="dropdown-item text-capitalize nav-link link-dark px-2">Flatbed</a></li>
           </ul>  
         </li>

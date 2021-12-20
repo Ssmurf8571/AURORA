@@ -39,7 +39,7 @@
                     <img class="w-100" src="/images/services/service-5-685x440.jpg" alt="">
                 </a>
                 
-                <a href="services/specilized-retail-delivery" class="position-relative col-lg-3 col-md-6 col-sm-12">
+                <a href="services/specialized-retail-delivery" class="position-relative col-lg-3 col-md-6 col-sm-12">
                     <div class="img-wrap position-absolute"><h2 class="text-white position-absolute">Specialized Retail Delivery</h2></div>
                     <img class="w-100" src="/images/services/service-4-685x440.jpg" alt="">
                 </a>

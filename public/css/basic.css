@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
 :root {
   --bs-yellow-rgb: 241, 200, 80;
   --bs-orange-rgb: 253, 126, 20;
@@ -71,7 +72,7 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", "Roboto", sans-serif;
 }
 
 p {
